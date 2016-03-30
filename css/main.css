@@ -21,36 +21,97 @@ body {
   margin: 0;
 }
 
-h1 {
+header {
+  background-color: #18294f;
+  overflow: hidden;
+  color: #fff;
+}
+
+header h1 {
   font-size: 2rem;
   text-align: center;
-  color: #fff;
-  background-color: #18294f;
   margin: 0;
   padding: 15px;
 }
 
-li {
-  list-style-type: none;
+nav ul {
+  padding-left: 15px;
+  background-color: #18294f;
+  font-size: 1.125rem;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 1px;
 }
 
-a {
+li {
+  list-style-type: none;
+  margin-bottom: 15px;
+  font-size: 1.125rem;
+}
+
+nav a {
   text-decoration: none;
-  color: #fff;
+  color: #6c8fe0;
 }
 
 @media only screen and (min-width: 25em) {
+
+  li {
+    float: left;
+    width: 50%;
+    list-style-type: none;
+    margin-bottom: 15px;
+  }
+
+  a {
+    font-size: 110%;
+  }
+
+  nav {
+  }
 
 }
 
 @media only screen and (min-width: 38em) {
 
+  li {
+    float: left;
+    list-style-type: none;
+    margin-bottom: 15px;
+  }
+
+  a {
+    font-size: 120%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
+  li {
+    float: left;
+    list-style-type: none;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  a {
+    font-size: 130%;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
+
+  li {
+    float: left;
+    list-style-type: none;
+    margin-bottom: 15px;
+    font-size: 130%;
+  }
+
+  a {
+    font-size: 130%;
+  }
 
 }
