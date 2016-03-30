@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "Ubuntu", sans-serif;
+  font: normal 100% "Ubuntu", sans-serif;
 }
 
 *, *::before, *::after {
